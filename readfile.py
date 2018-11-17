@@ -1,5 +1,11 @@
 f=open("result.sh","r")
 lines=f.readlines()
-#print (lines[2])
-print (lines[1])
+i=1
+while i<100000:
+    print (lines[i])
+    print(i)
+    i+=89
+
+
 f.close()
+
