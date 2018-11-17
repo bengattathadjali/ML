@@ -1,3 +1,5 @@
-file=open("result.sh","r")
-for x in file:
-  print(x) 
+f=open("result.sh","r")
+lines=f.readlines()
+#print (lines[2])
+print (lines[1])
+f.close()
