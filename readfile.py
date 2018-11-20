@@ -1,6 +1,6 @@
 f=open("result.sh","r")
 lines=f.readlines()
-i=lines[77].index("ROC")
+i=lines[79].index("ROC")
 c=lines[1].index("-C")
 
 #value_c=float(lines[1][c+4:c+10])
