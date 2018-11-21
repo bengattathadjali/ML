@@ -1,8 +1,7 @@
-f=open("result.sh","r")
-lines=f.readlines()
-result=[]
-for x in lines:
-    print [x.split(' ')[1] for x in open(file).readlines()]
-f.close()
-
-
+s = "Options: not ff"
+index_2="Options"
+print (s.find(index_2))
+if s.find(index_2) == -1:
+    print "No  here!"
+else:
+    print "YEAH"
