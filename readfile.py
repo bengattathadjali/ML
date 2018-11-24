@@ -1,6 +1,7 @@
 f=open("result.sh","r")
 lines=f.readlines()
 i=lines[79].index("ROC")
+
 j=0
 
 lndex = 'Weighted Avg'
@@ -15,7 +16,7 @@ with open("result.sh","r") as myFile:
                 j=0
                 if roc>rocmax:
                     rocmax=roc
-                    #num_2 = num 
+                    num_2 = num 
                     line_avg=num
                    
                     while True:
@@ -29,11 +30,17 @@ with open("result.sh","r") as myFile:
 
             else:
                 j+=1
-            
 
-print(value_c)     
-print (rocmax)  
+index_c = lines[line_avg].index("C")
+index_m = lines[line_avg].index("M")
+value_c = float(lines[line_avg][index_c+3:index_c+8])
+value_m = int(lines[line_avg][index_m+3:index_m+8])
+
+print("C :%f  M :%d " %(value_c,value_m))    
+    
+print ("ROC :%f" %rocmax)  
+
      
-
+#print(value_c) 
 f.close()
 
