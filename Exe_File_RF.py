@@ -2,12 +2,6 @@
 import os 
 
 P = 1
-I = 1
-NumSlots = 1
-K = 0
-M = 1
-V = 0.001
-S = 1
 
 
 weka_path = "java -cp 'weka-3-8-1/weka.jar' "
@@ -22,14 +16,14 @@ while P<10:
             while K<10:
                 M = 1
                 while M<10:
-                    V = 0.001
+                    V = 0.1
                     while V<1:
                         S = 1
                         while S<10:
                             os.system(weka_path+('weka.classifiers.trees.RandomForest -P %d -I %d -num-slots %d -K %d -M %d -V %f -S %d -t' %(P,I,NumSlots,K,M,V,S)) +weka_desc_path+text_write)
                             print("P :%d | I :%d | numSlots :%d | K :%d | M :%d | V :%f | S :%d" %(P,I,NumSlots,K,M,V,S))
                             S+=1
-                        V+=0.01
+                        V+=0.1
                     M+=1
                 K+=1
             NumSlots+=1
