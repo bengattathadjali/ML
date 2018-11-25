@@ -35,7 +35,7 @@ index_c = lines[line_avg].index("C")
 index_m = lines[line_avg].index("M")
 value_c = float(lines[line_avg][index_c+3:index_c+8])
 value_m = int(lines[line_avg][index_m+3:index_m+8])
-
+print("Execution sur train/y_features_opt2_300_train.csv :")
 print("C :%f  M :%d " %(value_c,value_m))    
     
 print ("ROC :%f" %rocmax)  

@@ -16,8 +16,8 @@
 
 
 
-java -cp '/home/eliot/Bureau/weka-3-8-1/weka.jar' weka.classifiers.trees.RandomForest -P 50 -I 50 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1 -t 
-'/home/eliot/Bureau/app machine/tp-projet/data/features/train/z_features_opt2_300_train.csv'  > /home/eliot/Bureau/test.sh
+java -cp 'weka-3-8-1/weka.jar' weka.classifiers.trees.RandomForest -P 50 -I 50 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1 -t 
+'train/z_features_opt2_300_train.csv'  > /home/eliot/Bureau/test.sh
 
 
 
