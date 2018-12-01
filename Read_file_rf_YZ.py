@@ -1,5 +1,5 @@
 # coding: utf-8
-f=open("result_RF.sh","r")
+f=open("result_RF_YZ.sh","r")
 lines=f.readlines()
 indice_roc=lines[26].index("ROC")
 indice_fMesure=lines[26].index("F-Measure")
@@ -16,7 +16,7 @@ index_2 = "Options:"
 index_3 = "=== Confusion Matrix ==="
 rocmax =0
 
-with open("result_RF.sh","r") as myFile:
+with open("result_RF_YZ.sh","r") as myFile:
     for num, line in enumerate(myFile, 1):
         if lndex in line:
             if j==1:
