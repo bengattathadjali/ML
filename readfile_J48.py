@@ -1,4 +1,4 @@
-f=open("result.sh","r")
+f=open("J48/result.sh","r")
 lines=f.readlines()
 i=lines[79].index("ROC")
 
@@ -8,7 +8,7 @@ lndex = 'Weighted Avg'
 index_2 = "Options:"
 rocmax =0
 
-with open("result.sh","r") as myFile:
+with open("J48/result.sh","r") as myFile:
     for num, line in enumerate(myFile, 1):
         if lndex in line:
             if j==1:
