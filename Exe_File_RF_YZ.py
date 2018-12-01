@@ -10,11 +10,11 @@ S=1
 weka_path = "java -cp 'weka-3-8-1/weka.jar' "
 weka_desc_path = " 'train/yz_features_opt2_600_train.csv' "
 text_write = '>> result_RF_YZ.sh'
-while P<51:
+while P<11:
     I = 1
-    while I<51:
+    while I<11:
         K=0
-        while K<51:
+        while K<11:
             os.system(weka_path+('weka.classifiers.trees.RandomForest -P %d -I %d -num-slots %d -K %d -M %d -V %f -S %d -t' %(P,I,NumSlots,K,M,V,S)) +weka_desc_path+text_write)
             print("P :%d | I :%d | numSlots :%d | K :%d | M :%f | V :%f | S :%d" %(P,I,NumSlots,K,M,V,S))
             K+=1
