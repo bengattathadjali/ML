@@ -1,0 +1,1458 @@
+
+Options: -C +0.010000 -M +20 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.06 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          53               40.7692 %
+Incorrectly Classified Instances        77               59.2308 %
+Kappa statistic                         -0.0178
+Mean absolute error                      0.2854
+Root mean squared error                  0.3813
+Relative absolute error                100.0956 %
+Root relative squared error            101.1865 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.945    0.973    0.416      0.945    0.578      -0.072   0.450     0.400     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.382     0.085     c5
+                 0.026    0.043    0.200      0.026    0.047      -0.041   0.454     0.275     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.468     0.096     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.465     0.090     c2
+Weighted Avg.    0.408    0.425    0.234      0.408    0.258      -0.042   0.447     0.275     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 52  0  3  0  0 |  a = c4
+ 12  0  1  0  0 |  b = c5
+ 37  0  1  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+Options: -C +0.010000 -M +21 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.07 seconds
+Time taken to test model on training data: 0.06 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          52               40      %
+Incorrectly Classified Instances        78               60      %
+Kappa statistic                         -0.0292
+Mean absolute error                      0.286 
+Root mean squared error                  0.3831
+Relative absolute error                100.2863 %
+Root relative squared error            101.666  %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.927    0.973    0.411      0.927    0.570      -0.108   0.449     0.399     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.398     0.087     c5
+                 0.026    0.054    0.167      0.026    0.045      -0.061   0.445     0.271     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.475     0.094     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.470     0.088     c2
+Weighted Avg.    0.400    0.428    0.223      0.400    0.254      -0.064   0.447     0.274     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 51  0  4  0  0 |  a = c4
+ 12  0  1  0  0 |  b = c5
+ 37  0  1  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+Options: -C +0.010000 -M +22 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.05 seconds
+Time taken to test model on training data: 0.06 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          50               38.4615 %
+Incorrectly Classified Instances        80               61.5385 %
+Kappa statistic                         -0.0484
+Mean absolute error                      0.2873
+Root mean squared error                  0.3864
+Relative absolute error                100.7623 %
+Root relative squared error            102.5451 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.873    0.960    0.400      0.873    0.549      -0.162   0.433     0.395     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.434     0.091     c5
+                 0.053    0.087    0.200      0.053    0.083      -0.059   0.442     0.268     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.503     0.096     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.400     0.079     c2
+Weighted Avg.    0.385    0.432    0.228      0.385    0.256      -0.086   0.439     0.270     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 48  0  7  0  0 |  a = c4
+ 12  0  1  0  0 |  b = c5
+ 36  0  2  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+Options: -C +0.010000 -M +23 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.05 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          52               40      %
+Incorrectly Classified Instances        78               60      %
+Kappa statistic                         -0.0239
+Mean absolute error                      0.2849
+Root mean squared error                  0.3804
+Relative absolute error                 99.9191 %
+Root relative squared error            100.9521 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.909    0.947    0.413      0.909    0.568      -0.073   0.457     0.403     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.413     0.088     c5
+                 0.053    0.076    0.222      0.053    0.085      -0.042   0.449     0.272     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.474     0.094     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.412     0.081     c2
+Weighted Avg.    0.400    0.423    0.240      0.400    0.265      -0.043   0.447     0.275     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 50  0  5  0  0 |  a = c4
+ 12  0  1  0  0 |  b = c5
+ 36  0  2  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 11  0  1  0  0 |  e = c2
+
+
+Options: -C +0.010000 -M +24 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.05 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          52               40      %
+Incorrectly Classified Instances        78               60      %
+Kappa statistic                         -0.0346
+Mean absolute error                      0.2861
+Root mean squared error                  0.3811
+Relative absolute error                100.3519 %
+Root relative squared error            101.1306 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.945    1.000    0.409      0.945    0.571      -0.179   0.424     0.388     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.397     0.086     c5
+                 0.000    0.033    0.000      0.000    0.000      -0.099   0.439     0.272     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.421     0.082     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.421     0.082     c2
+Weighted Avg.    0.400    0.433    0.173      0.400    0.242      -0.105   0.425     0.267     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 52  0  3  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+Options: -C +0.010000 -M +25 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.05 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          52               40      %
+Incorrectly Classified Instances        78               60      %
+Kappa statistic                         -0.0346
+Mean absolute error                      0.2861
+Root mean squared error                  0.3811
+Relative absolute error                100.3519 %
+Root relative squared error            101.1306 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.945    1.000    0.409      0.945    0.571      -0.179   0.424     0.388     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.397     0.086     c5
+                 0.000    0.033    0.000      0.000    0.000      -0.099   0.439     0.272     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.421     0.082     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.421     0.082     c2
+Weighted Avg.    0.400    0.433    0.173      0.400    0.242      -0.105   0.425     0.267     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 52  0  3  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+Options: -C +0.010000 -M +26 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.05 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          52               40      %
+Incorrectly Classified Instances        78               60      %
+Kappa statistic                         -0.0346
+Mean absolute error                      0.2861
+Root mean squared error                  0.3811
+Relative absolute error                100.3519 %
+Root relative squared error            101.1306 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.945    1.000    0.409      0.945    0.571      -0.179   0.424     0.388     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.397     0.086     c5
+                 0.000    0.033    0.000      0.000    0.000      -0.099   0.439     0.272     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.421     0.082     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.421     0.082     c2
+Weighted Avg.    0.400    0.433    0.173      0.400    0.242      -0.105   0.425     0.267     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 52  0  3  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+Options: -C +0.010000 -M +27 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.06 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          52               40      %
+Incorrectly Classified Instances        78               60      %
+Kappa statistic                         -0.0346
+Mean absolute error                      0.2861
+Root mean squared error                  0.3811
+Relative absolute error                100.3519 %
+Root relative squared error            101.1306 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.945    1.000    0.409      0.945    0.571      -0.179   0.424     0.388     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.397     0.086     c5
+                 0.000    0.033    0.000      0.000    0.000      -0.099   0.439     0.272     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.421     0.082     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.421     0.082     c2
+Weighted Avg.    0.400    0.433    0.173      0.400    0.242      -0.105   0.425     0.267     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 52  0  3  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+Options: -C +0.010000 -M +28 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.05 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2837
+Root mean squared error                  0.3768
+Relative absolute error                 99.4776 %
+Root relative squared error             99.9931 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.461     0.406     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.410     0.088     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.470     0.283     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.427     0.082     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.427     0.082     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.452     0.278     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+Options: -C +0.010000 -M +29 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.05 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2837
+Root mean squared error                  0.3768
+Relative absolute error                 99.4776 %
+Root relative squared error             99.9931 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.461     0.406     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.410     0.088     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.470     0.283     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.427     0.082     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.427     0.082     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.452     0.278     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+Options: -C +0.020000 -M +20 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.06 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          53               40.7692 %
+Incorrectly Classified Instances        77               59.2308 %
+Kappa statistic                         -0.0073
+Mean absolute error                      0.2847
+Root mean squared error                  0.3815
+Relative absolute error                 99.8313 %
+Root relative squared error            101.2347 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.927    0.907    0.429      0.927    0.586      0.037    0.494     0.442     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.377     0.082     c5
+                 0.053    0.098    0.182      0.053    0.082      -0.074   0.455     0.276     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.581     0.140     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.468     0.088     c2
+Weighted Avg.    0.408    0.412    0.234      0.408    0.272      -0.006   0.477     0.297     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 51  0  4  0  0 |  a = c4
+ 11  0  2  0  0 |  b = c5
+ 36  0  2  0  0 |  c = c3
+ 10  0  2  0  0 |  d = c1
+ 11  0  1  0  0 |  e = c2
+
+
+Options: -C +0.020000 -M +21 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.06 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          52               40      %
+Incorrectly Classified Instances        78               60      %
+Kappa statistic                         -0.0187
+Mean absolute error                      0.2852
+Root mean squared error                  0.3833
+Relative absolute error                100.022  %
+Root relative squared error            101.714  %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.909    0.907    0.424      0.909    0.578      0.004    0.492     0.442     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.390     0.083     c5
+                 0.053    0.109    0.167      0.053    0.080      -0.088   0.447     0.271     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.578     0.134     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.468     0.086     c2
+Weighted Avg.    0.400    0.415    0.228      0.400    0.268      -0.024   0.474     0.295     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 50  0  5  0  0 |  a = c4
+ 11  0  2  0  0 |  b = c5
+ 36  0  2  0  0 |  c = c3
+ 10  0  2  0  0 |  d = c1
+ 11  0  1  0  0 |  e = c2
+
+
+Options: -C +0.020000 -M +22 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.05 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          50               38.4615 %
+Incorrectly Classified Instances        80               61.5385 %
+Kappa statistic                         -0.0484
+Mean absolute error                      0.2873
+Root mean squared error                  0.3864
+Relative absolute error                100.7623 %
+Root relative squared error            102.5451 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.873    0.960    0.400      0.873    0.549      -0.162   0.433     0.395     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.434     0.091     c5
+                 0.053    0.087    0.200      0.053    0.083      -0.059   0.442     0.268     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.503     0.096     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.400     0.079     c2
+Weighted Avg.    0.385    0.432    0.228      0.385    0.256      -0.086   0.439     0.270     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 48  0  7  0  0 |  a = c4
+ 12  0  1  0  0 |  b = c5
+ 36  0  2  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+Options: -C +0.020000 -M +23 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.05 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          51               39.2308 %
+Incorrectly Classified Instances        79               60.7692 %
+Kappa statistic                         -0.0265
+Mean absolute error                      0.2848
+Root mean squared error                  0.3811
+Relative absolute error                 99.8815 %
+Root relative squared error            101.1509 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.855    0.907    0.409      0.855    0.553      -0.081   0.460     0.405     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.454     0.094     c5
+                 0.105    0.120    0.267      0.105    0.151      -0.020   0.458     0.274     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.496     0.102     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.384     0.079     c2
+Weighted Avg.    0.392    0.419    0.251      0.392    0.278      -0.040   0.455     0.277     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 47  0  8  0  0 |  a = c4
+ 12  0  1  0  0 |  b = c5
+ 34  0  4  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 10  0  2  0  0 |  e = c2
+
+
+Options: -C +0.020000 -M +24 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.05 seconds
+Time taken to test model on training data: 0.06 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          51               39.2308 %
+Incorrectly Classified Instances        79               60.7692 %
+Kappa statistic                         -0.0371
+Mean absolute error                      0.286 
+Root mean squared error                  0.3818
+Relative absolute error                100.3144 %
+Root relative squared error            101.329  %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.891    0.960    0.405      0.891    0.557      -0.134   0.429     0.392     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.449     0.096     c5
+                 0.053    0.076    0.222      0.053    0.085      -0.042   0.452     0.279     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.448     0.086     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.388     0.079     c2
+Weighted Avg.    0.392    0.428    0.236      0.392    0.260      -0.069   0.436     0.272     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 49  0  6  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 36  0  2  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 11  0  1  0  0 |  e = c2
+
+
+Options: -C +0.020000 -M +25 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.05 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          52               40      %
+Incorrectly Classified Instances        78               60      %
+Kappa statistic                         -0.0346
+Mean absolute error                      0.2861
+Root mean squared error                  0.3811
+Relative absolute error                100.3519 %
+Root relative squared error            101.1306 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.945    1.000    0.409      0.945    0.571      -0.179   0.424     0.388     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.397     0.086     c5
+                 0.000    0.033    0.000      0.000    0.000      -0.099   0.439     0.272     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.421     0.082     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.421     0.082     c2
+Weighted Avg.    0.400    0.433    0.173      0.400    0.242      -0.105   0.425     0.267     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 52  0  3  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+Options: -C +0.020000 -M +26 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.05 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          52               40      %
+Incorrectly Classified Instances        78               60      %
+Kappa statistic                         -0.0346
+Mean absolute error                      0.2861
+Root mean squared error                  0.3811
+Relative absolute error                100.3519 %
+Root relative squared error            101.1306 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.945    1.000    0.409      0.945    0.571      -0.179   0.424     0.388     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.397     0.086     c5
+                 0.000    0.033    0.000      0.000    0.000      -0.099   0.439     0.272     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.421     0.082     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.421     0.082     c2
+Weighted Avg.    0.400    0.433    0.173      0.400    0.242      -0.105   0.425     0.267     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 52  0  3  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+Options: -C +0.020000 -M +27 
+
+J48 pruned tree
+------------------
+: c4 (130.0/75.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.06 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          55               42.3077 %
+Incorrectly Classified Instances        75               57.6923 %
+Kappa statistic                          0     
+Mean absolute error                      0.2834
+Root mean squared error                  0.3764
+Relative absolute error                 99.5241 %
+Root relative squared error             99.9911 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.423      1.000    0.595      0.000    0.500     0.423     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.100     c5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.292     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.092     c2
+Weighted Avg.    0.423    0.423    0.179      0.423    0.252      0.000    0.500     0.291     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 55  0  0  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          52               40      %
+Incorrectly Classified Instances        78               60      %
+Kappa statistic                         -0.0346
+Mean absolute error                      0.2861
+Root mean squared error                  0.3811
+Relative absolute error                100.3519 %
+Root relative squared error            101.1306 %
+Total Number of Instances              130     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.945    1.000    0.409      0.945    0.571      -0.179   0.424     0.388     c4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.397     0.086     c5
+                 0.000    0.033    0.000      0.000    0.000      -0.099   0.439     0.272     c3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.421     0.082     c1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.421     0.082     c2
+Weighted Avg.    0.400    0.433    0.173      0.400    0.242      -0.105   0.425     0.267     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 52  0  3  0  0 |  a = c4
+ 13  0  0  0  0 |  b = c5
+ 38  0  0  0  0 |  c = c3
+ 12  0  0  0  0 |  d = c1
+ 12  0  0  0  0 |  e = c2
+
