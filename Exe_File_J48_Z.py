@@ -1,6 +1,6 @@
 import os 
 
-c = 0.01
+c = 0.57
 
 
 weka_path = "java -cp 'weka-3-8-1/weka.jar' "
